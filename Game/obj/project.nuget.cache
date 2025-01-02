@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LIlDqMsZlAI=",
+  "success": true,
+  "projectFilePath": "/Users/andreialecuizsak/Programing Projects/Simple Platformer/Game/Game.csproj",
+  "expectedPackageFiles": [
+    "/Users/andreialecuizsak/.nuget/packages/raylib-cs/7.0.0/raylib-cs.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
