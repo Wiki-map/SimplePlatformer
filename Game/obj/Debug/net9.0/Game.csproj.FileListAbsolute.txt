@@ -20,3 +20,4 @@
 /Users/andreialecuizsak/Programing Projects/Simple Platformer/Game/bin/Debug/net9.0/runtimes/win-x86/native/raylib.dll
 /Users/andreialecuizsak/Programing Projects/Simple Platformer/Game/obj/Debug/net9.0/Game.csproj.AssemblyReference.cache
 /Users/andreialecuizsak/Programing Projects/Simple Platformer/Game/obj/Debug/net9.0/Game.csproj.Up2Date
+/Users/andreialecuizsak/Programing Projects/Simple Platformer/Game/obj/Debug/net9.0/Game.sourcelink.json

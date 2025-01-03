@@ -71,7 +71,7 @@ public class Player
             Collision.MakeCollision(this, x);
         }
         
-        Console.WriteLine(velocity);
+       // Console.WriteLine(velocity);
 
     }
 

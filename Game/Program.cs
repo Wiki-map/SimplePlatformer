@@ -46,7 +46,7 @@ class Program
     {
         
         Raylib.BeginDrawing();
-        Raylib.ClearBackground(Color.Black);
+        Raylib.ClearBackground(Color.SkyBlue);
         
         Raylib.BeginMode2D(camera);
         

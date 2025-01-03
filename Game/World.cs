@@ -13,13 +13,37 @@ public class World
 
     public static void InitWorld()
     {
+        
+        
+        //WorldComponents.Add(new StaticBody(-100, 300, 1000, 100, Color.White));
+        //WorldComponents.Add(new StaticBody(350, 150, 100, 200, Color.White));
 
-        //StaticBody body1 = new StaticBody(100, 100, 100, 400, Color.White);
-        //StaticBody body2 = new StaticBody(350, 350, 100, 80, Color.White);
+        var file = File.OpenRead("/Users/andreialecuizsak/Programing Projects/Simple Platformer/Game/Recourses/world.txt");
+
+        var streamReader = new StreamReader(file);
+
+        string line;
+
+        int LineCount = 0;
         
-        WorldComponents.Add(new StaticBody(-100, 300, 1000, 100, Color.White));
-        WorldComponents.Add(new StaticBody(350, 150, 100, 200, Color.White));
-        
+        while ((line = streamReader.ReadLine()) != null)
+        {
+            
+            Console.WriteLine(line);
+            
+            for (int i = 0; i < line.Length; i++)
+            {
+                if (line[i] == '#')
+                {
+                    WorldComponents.Add(new StaticBody(i* 32, LineCount * 32, 32, 32, Color.White));
+                }
+                
+            }
+
+            LineCount++;
+
+        }
+
     }
 
     public static void DrawWorld()
